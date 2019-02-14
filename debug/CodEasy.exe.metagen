@@ -1,0 +1,90 @@
+  CodEasy.Sobre.resources - Embedded, ContainedInManifestFile, 
+  CodEasy.MenuInicial.resources - Embedded, ContainedInManifestFile, 
+  CodEasy.NovoProjeto.resources - Embedded, ContainedInManifestFile, 
+  CodEasy.TelaCodigo.resources - Embedded, ContainedInManifestFile, 
+  CodEasy.TelaExecucao.resources - Embedded, ContainedInManifestFile, 
+  CodEasy.TelaExecucaoInterpretador.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CodEasy, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class CodEasy.Sobre: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CodEasy.NovoProjeto: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getNome(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    getfolderName(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    getStatusNovoProjeto(): PrivateScope, Public, HideBySig
+    setStatusNovoProjeto(Int32): PrivateScope, Public, HideBySig
+    MarshalString(String, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class CodEasy.MenuInicial: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getStatus(): PrivateScope, Public, HideBySig
+    getNomePagina(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    getDestino(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+Class CodEasy.TelaCodigo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getStatus(): PrivateScope, Public, HideBySig
+    setStatus(Int32): PrivateScope, Public, HideBySig
+    setNome(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    setfolderName(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    getTextoCodigo(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    mudarCorPalavraChave(Int32, Int32, Int32, RichTextBox): PrivateScope, Public, HideBySig
+    mudarCorPreto(Int32, Int32, Int32, RichTextBox): PrivateScope, Public, HideBySig
+    pesquisarPalavra(Int32, Int32, RichTextBox): PrivateScope, Public, HideBySig
+    alterarTodotexto(Int32, Int32, RichTextBox): PrivateScope, Public, HideBySig
+    criarNovoProjeto(): PrivateScope, Public, HideBySig
+    abrirProjeto(): PrivateScope, Public, HideBySig
+    atualizarNumeroLabel(): PrivateScope, Public, HideBySig
+    pesquisarLinha(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    apagarErro(): PrivateScope, Public, HideBySig
+    MarshalString(String, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class CodEasy.TelaExecucao: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    mostrarErros(Int32): PrivateScope, Public, HideBySig
+    escreverTexto(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    getValorLido(): PrivateScope, Public, HideBySig
+    setValorEmTexto(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    setTexto(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    setLeitura(Int32): PrivateScope, Public, HideBySig
+    setStatus(Int32): PrivateScope, Public, HideBySig
+    getStatus(): PrivateScope, Public, HideBySig
+    setLinha(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    setNumeroLinha(Int32): PrivateScope, Public, HideBySig
+    MarshalString(String, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class CodEasy.TelaExecucaoInterpretador: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    mostrarErros(Int32): PrivateScope, Public, HideBySig
+    escreverTexto(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    getValorLido(): PrivateScope, Public, HideBySig
+    setValorEmTexto(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    setTexto(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    receberExpressao(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    setLeitura(Int32): PrivateScope, Public, HideBySig
+    setStatus(Int32): PrivateScope, Public, HideBySig
+    getStatus(): PrivateScope, Public, HideBySig
+    setLinha(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    setNumeroLinha(Int32): PrivateScope, Public, HideBySig
+    MarshalString(String, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig

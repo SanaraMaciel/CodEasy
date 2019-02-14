@@ -1,0 +1,42 @@
+﻿Build started 19/10/2015 16:08:06.
+     1>Project "F:\Faitec\Projeto Final\CodEasy\CodEasy.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Sobre.cpp AnalisadorLexico.cpp AnalisadorSintatico.cpp Controle.cpp GeradorDeResposta.cpp Interpretador.cpp BibliotecaDeFuncoes.cpp MenuInicial.cpp NovoProjeto.cpp Principal.cpp TelaCodigo.cpp TelaExecucao.cpp TelaExecucaoInterpretador.cpp
+         Sobre.cpp
+         AnalisadorLexico.cpp
+         AnalisadorSintatico.cpp
+         Controle.cpp
+         GeradorDeResposta.cpp
+         Interpretador.cpp
+         BibliotecaDeFuncoes.cpp
+         MenuInicial.cpp
+         NovoProjeto.cpp
+         Principal.cpp
+         TelaCodigo.cpp
+     1>TelaCodigo.cpp(336): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         TelaExecucao.cpp
+         TelaExecucaoInterpretador.cpp
+         Generating Code...
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\rafaelbarbosa\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Faitec\Projeto Final\CodEasy\Debug\CodEasy.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\CodEasy.Sobre.resources /ASSEMBLYRESOURCE:Debug\CodEasy.MenuInicial.resources /ASSEMBLYRESOURCE:Debug\CodEasy.NovoProjeto.resources /ASSEMBLYRESOURCE:Debug\CodEasy.TelaCodigo.resources /ASSEMBLYRESOURCE:Debug\CodEasy.TelaExecucao.resources /ASSEMBLYRESOURCE:Debug\CodEasy.TelaExecucaoInterpretador.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Faitec\Projeto Final\CodEasy\Debug\CodEasy.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Sobre.obj
+         Debug\AnalisadorLexico.obj
+         Debug\AnalisadorSintatico.obj
+         Debug\Controle.obj
+         Debug\GeradorDeResposta.obj
+         Debug\Interpretador.obj
+         Debug\BibliotecaDeFuncoes.obj
+         Debug\MenuInicial.obj
+         Debug\NovoProjeto.obj
+         Debug\Principal.obj
+         Debug\TelaCodigo.obj
+         Debug\TelaExecucao.obj
+         Debug\TelaExecucaoInterpretador.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         CodEasy.vcxproj -> F:\Faitec\Projeto Final\CodEasy\Debug\CodEasy.exe
+     1>Done Building Project "F:\Faitec\Projeto Final\CodEasy\CodEasy.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:26.40
